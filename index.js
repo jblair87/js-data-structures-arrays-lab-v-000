@@ -11,3 +11,13 @@ function destructivelyPrependDriver()
 {
   drivers.unshift("Bob");
 }
+
+function destructivelyPrependDriver()
+{
+  drivers.unshift("Bob");
+}
+
+function destructivelyPrependDriver()
+{
+  drivers.unshift("Bob");
+}
