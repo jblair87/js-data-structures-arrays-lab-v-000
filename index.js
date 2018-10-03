@@ -31,11 +31,11 @@ function prependDriver(name)
 return [name, ...drivers];
 }
 
-function removeLastDriver(name){
+function removeLastDriver(){
 return drivers.slice(1);
 }
 
 
-function removeFirstDriver(name)
-{return [name, ...drivers];
+function removeFirstDriver()
+{return drivers;
 }
