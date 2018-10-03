@@ -12,12 +12,12 @@ function destructivelyPrependDriver()
   drivers.unshift("Bob");
 }
 
-function destructivelyPrependDriver()
+function destructivelyRemoveLastDriver()
 {
   drivers.unshift("Bob");
 }
 
-function destructivelyPrependDriver()
+function destructivelyRemoveFirstDriver()
 {
   drivers.unshift("Bob");
 }
