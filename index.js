@@ -28,5 +28,5 @@ return [...drivers, name];
 
 function prependDriver(name)
 {
-  drivers.shift("Bob");
+return [name, ...drivers];
 }
