@@ -22,7 +22,7 @@ function destructivelyRemoveFirstDriver()
 }
 
 const appendDriver =  drivers.slice();
-appendDriver.unshift("Broom");
+appendDriver.push("Broom");
 
 
 function prependDriver()
