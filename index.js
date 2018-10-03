@@ -19,5 +19,5 @@ function destructivelyRemoveLastDriver()
 
 function destructivelyRemoveFirstDriver()
 {
-  drivers.unshift("Bob");
+  drivers.shift("Bob");
 }
