@@ -22,11 +22,7 @@ function destructivelyRemoveFirstDriver()
 }
 
 const appendDriver =  ["Milo", "Otis", "Garfield"];
-
-function appendDriver()
-{
-  appendDriver.unshift("Broom");
-}
+appendDriver.unshift("Broom");
 
 
 function prependDriver()
