@@ -36,7 +36,7 @@ return [...drivers, name];
 }
 
 
-function prependDriver(name)
+function removeFirstDriver(name)
 {
 return [name, ...drivers];
 }
