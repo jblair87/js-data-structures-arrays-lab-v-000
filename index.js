@@ -37,5 +37,5 @@ return drivers.slice(1);
 
 
 function removeFirstDriver()
-{return drivers;
+{return drivers.slice(5);
 }
