@@ -22,20 +22,13 @@ function destructivelyRemoveFirstDriver()
   drivers.shift("Bob");
 }
 
-function FirstDriver()
+function appendDriver()
 {
   drivers.shift("Bob");
 }
 
 
-function FirstDriver()
+function prependDriver()
 {
   drivers.shift("Bob");
 }
-
-
-
-
-
-
-
