@@ -32,7 +32,7 @@ return [name, ...drivers];
 }
 
 function removeLastDriver(name){
-return [...drivers, name];
+return drivers.slice(1)
 }
 
 
