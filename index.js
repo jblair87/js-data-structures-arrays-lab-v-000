@@ -22,10 +22,9 @@ function destructivelyRemoveFirstDriver()
   drivers.shift("Bob");
 }
 
-function appendDriver("Broom")
+function appendDriver()
 {
-appendDriver = drivers.push("Broom");
-  appendDriver;
+let appendDriver = drivers.push("Broom");
 }
 
 
